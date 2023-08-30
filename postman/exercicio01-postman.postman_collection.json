@@ -1,0 +1,290 @@
+{
+	"info": {
+		"_postman_id": "9f747594-d1ec-45e3-a1a0-06e9b40c5db4",
+		"name": "exercicio01-postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29331482"
+	},
+	"item": [
+		{
+			"name": "CreateDeveloper00",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Philips 2\",\r\n        \"lastName\": \"Teste\",\r\n        \"level\": \"Junior\",\r\n        \"specialization\": \"Infra\",\r\n        \"sector\": {\r\n            \"name\": \"DevOps\",\r\n            \"floor\": 3\r\n        },\r\n        \"address\": {\r\n            \"street\": \"Rua um dois tres\",\r\n            \"number\": 25,\r\n            \"city\": \"São Paulo\",\r\n            \"country\": \"Brasil\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDeveloper01",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"John\",\r\n        \"lastName\": \"Doe\",\r\n        \"level\": \"Senior\",\r\n        \"specialization\": \"Backend\",\r\n        \"sector\": {\r\n            \"name\": \"Engineering\",\r\n            \"floor\": 5\r\n        },\r\n        \"address\": {\r\n            \"street\": \"123 Main St\",\r\n            \"number\": 10,\r\n            \"city\": \"New York\",\r\n            \"country\": \"USA\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDeveloper02",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Alice\",\r\n        \"lastName\": \"Smith\",\r\n        \"level\": \"Mid\",\r\n        \"specialization\": \"Frontend\",\r\n        \"sector\": {\r\n            \"name\": \"Design\",\r\n            \"floor\": 2\r\n        },\r\n        \"address\": {\r\n            \"street\": \"456 Elm Ave\",\r\n            \"number\": 8,\r\n            \"city\": \"Los Angeles\",\r\n            \"country\": \"USA\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDeveloper03",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"Carlos\",\r\n        \"lastName\": \"Rodriguez\",\r\n        \"level\": \"Junior\",\r\n        \"specialization\": \"Mobile\",\r\n        \"sector\": {\r\n            \"name\": \"App Development\",\r\n            \"floor\": 4\r\n        },\r\n        \"address\": {\r\n            \"street\": \"Avenida Primavera\",\r\n            \"number\": 120,\r\n            \"city\": \"Rio de Janeiro\",\r\n            \"country\": \"Brasil\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDeveloper04",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"name\": \"Emily\",\r\n        \"lastName\": \"Johnson\",\r\n        \"level\": \"Mid\",\r\n        \"specialization\": \"Data Science\",\r\n        \"sector\": {\r\n            \"name\": \"Analytics\",\r\n            \"floor\": 6\r\n        },\r\n        \"address\": {\r\n            \"street\": \"789 Oak Rd\",\r\n            \"number\": 15,\r\n            \"city\": \"Toronto\",\r\n            \"country\": \"Canada\"\r\n        }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETDeveloperById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers/id/numerodoid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers",
+						"id",
+						"numerodoid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllDevelopers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateDeveloper",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"64eceb878b938f1065a1e7f7\",\r\n    \"name\": \"Olavo\",\r\n    \"lastName\": \"Rocha\",\r\n    \"level\": \"Trainee\",\r\n    \"specialization\": \"DevOps\",\r\n    \"sector\": {\r\n        \"name\": \"infrastructure\",\r\n        \"floor\": 2\r\n    },\r\n    \"address\": {\r\n        \"street\": \"Rua dois vinte\",\r\n        \"number\": 65,\r\n        \"city\": \"Salvador\",\r\n        \"Country\": \"Brasil\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteDeveloperById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/developers/id/64eceb878b938f1065a1e7f7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"developers",
+						"id",
+						"64eceb878b938f1065a1e7f7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
