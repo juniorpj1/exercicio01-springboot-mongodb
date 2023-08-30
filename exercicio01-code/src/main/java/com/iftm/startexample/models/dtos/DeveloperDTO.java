@@ -12,14 +12,10 @@ public class DeveloperDTO implements Serializable {
     private String id;
     private String name;
     private String lastName;
-
     private String level;
-
     private String specialization;
-
     private Sector sector;
     private Address address;
-
     public DeveloperDTO() {
 
     }
